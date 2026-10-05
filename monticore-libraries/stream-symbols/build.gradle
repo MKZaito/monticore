@@ -7,7 +7,7 @@ description = 'MontiCore: Stream Symbols'
 
 // add generated symbols to jar
 jar {
-  from generateSymbolTables
+  from "src/main/symbols"
 }
 
 sourcesJar {
